@@ -1,6 +1,9 @@
 import tensorflow as tf
 
-def get_model(timesteps=100, n_class=5):
+def get_model():
+    timesteps = 100
+    n_class = 5
+
     x_input = tf.keras.layers.Input(shape=(timesteps, 1))
     x = x_input
 

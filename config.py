@@ -2,7 +2,7 @@ import os
 import time
 
 hyper_params = {
-                "epoch": 200,
+                "epoch": 1,
                 "lr": 0.0001,
                 "batch_size": 32
                 }
